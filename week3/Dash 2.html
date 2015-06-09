@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://silk.com/sites/default/files/recipes/medium/AppleOatPancakes_DT.jpg');
+      background-size: cover;
+      background-position: center;
+      color: rgba(130, 180, 150, .78);
+    }
+    a {
+      color: rgba(100, 10, 100, 0.7);
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 7px solid brown;
+      width: 360px;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(100,80,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    button {
+      color: rgba(100,80,0,0.5);
+      background-color: orange;
+    }
+    body {
+      background-color: #FA5;
+      color: rgba(130, 90, 10, 1);
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/208027_1073040109283_5528_n.jpg?oh=95b07eb44bf3c11405a08616854508f8&oe=55F3D37A">
+    <h1>Sara's Pancakes</h1>
+    <ul>
+      <li><a href="#">About Pancakes</a></li>
+      <li><a href="#">Best Pancakes</a></li>
+      <li><a href="#">Worst Pancakes</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Hello Pancake Lovers!</h2>
+    <p>Hey everyone! I just wanted to welcome everyone to my PANCAKE BLOG! Thanks for stopping in, and give me a "Like" if you LOVE pancakes!</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Chocolate Chip... 'Nuff said.</h2>
+    <p>This is going to be a short post, because it's pretty obvious what I'm talking about here. Chocolate chips + Pancakes = Win. I mean, who doesn't love chocolate chips? (Unless you're allergic...) Throw them in pancakes and you have the best invention ever! Gimme a "Like" if you agree! ;-)</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Buckwheat Pancakes = FAIL</h2>
+    <p>Now I'm not trying to hate on people who have to adhere to certain dietary restrictions, but if you DON'T know what a pancake tastes like then DON'T EVER try these things. They're a mockery to all things pancake. If you HAVE had pancakes, and have despairingly lost the ability to enjoy them, don't substitue for these instead. Try something that is a little closer to their texture and succulence; like cardboard...</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("YAY for PANCAKES!!!");
+    });
+  </script>
+</body>
