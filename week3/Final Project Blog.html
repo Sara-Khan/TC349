@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('http://cdn.shopify.com/s/files/1/0780/8173/t/7/assets/home-slider-slide-1.jpg?18240210137156734362');
+      background-size: cover;
+      background-position: center;
+      color: rgba(0, 0, 255, .78);
+    }
+    a {
+      color: rgba(0, 10, 100, 0.7);
+    }
+    h1 {
+      font-size: 70px;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      width: 360px;
+      border-radius: 20px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(00, 80, 0, 0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    button {
+      color: rgba(0, 80, 0, 0.5);
+      
+    }
+    body {
+      background-color: ;
+      color: rgba(0, 0, 50, 1);
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="http://cdn.shopify.com/s/files/1/0780/8173/t/7/assets/logo.png?18240210137156734362">
+    <h1>Blog</h1>
+    <ul>
+      <li><a href="file:///C:/Users/Brandon/Desktop/Sara/TC439/TC349/week3/Final%20Project%20Homepage.html">Homepage</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Musings</h2>
+    <p>Welcome! Our blog is currently under construction still, but check back periodically for updates on our promotions, products, and partnerships!</p>
+  <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Thanks for the feedback!");
+    });
+  </script>
+</body>
