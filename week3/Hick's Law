@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+	<link href="/normalize.css" rel="stylesheet">
+	<style>
+		header {
+			text-align: center;
+			background-color: white;
+			background-size: cover;
+			color: black;
+		}
+		img {
+		  max-width: 1200px;
+		  min-width: 180px;
+		}
+		h1 {
+		  color: rgb(108, 146, 157);
+		}
+		h2 {
+		  text-align: center;
+		}
+		p {
+		  text-align: center;
+		  max-width: 500px;
+		  margin: 0 auto;
+		  font-family: times;
+		  font-size: 19;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<img src="https://github.com/Sara-Khan/TC349/blob/master/week3/examples/Hicks.png?raw=true">
+		<h1>Hick's Law</h1>
+	</header>
+	<p>This website has a very intriguing desgin. The single scroll function is beyond simplistic, cursor hovering links and navigation bars provides very positive feedback, and the minimalist layout keeps the website from being cluttered. All these simplistic elements just provide for a very distinct way of portraying the artists in a graphically stimulating manner, which happens to be quite intricate. </p> 
+	<h2>
+		<a href="http://www.antonandirene.com/">Source Webpage</a>
+  	</h2>
+</body>
